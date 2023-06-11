@@ -1,0 +1,203 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+body{
+    background-color: rgb(32, 28, 28); 
+
+}
+.bg{
+    background-color: #9c4041;
+    height: 1700px;
+    margin-top: -169px;
+}
+.firstimg{
+    margin-top: 155px;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    position: fixed;
+    z-index: 99;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    width: 60%;   
+}
+.icon,.brand{
+    width: 20%;
+    display: flex;
+}
+.nav{
+
+    display: flex;
+    display: flex;
+    padding-inline-start:280px
+}
+.nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+padding-left: 35px;
+font-weight: 600;
+
+}
+.icon{
+    padding-inline-start: 150px;
+}
+
+
+.icon img{
+   width: 19px;
+  
+ margin-left: 16px;
+ padding-left: 5px;
+    display: flex;
+    
+    
+}
+#img1{
+    width: 100%;
+    height: 100%;
+    
+}
+.image2{
+
+    display: flex;
+    margin-left: 150px;
+}
+
+.image2 img{
+    
+    position: relative;
+    left: 50px;
+    top: 230px;
+}
+.about{
+    position: absolute;
+    left:830px;
+    bottom:-517px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 17px;
+    background-color: transparent; 
+
+}
+.about h6{
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+.about p{
+    font-size: 15px ; 
+    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+    font-weight: 400; 
+}
+.about h1{
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+.btn{
+    position: absolute;
+    font-size: 15px;
+    border: 1px solid yellow;
+    color: yellow;
+    padding:12px 36px;
+     background-color: #9c4041;
+   
+
+}
+
+.btn:hover{
+   background-color: yellow;
+   color: black;
+   
+
+}
+
+
+.bottem{
+   height: 545px;
+   background-color: rgb(32, 28, 28); 
+}
+
+.upper{
+    padding-inline-start: 200px;
+    display: flex;
+    gap: 500px;
+    position: relative;
+    top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.desc h1,h4{
+    color: #d1bd74;
+    background-color: rgb(32, 28, 28);
+    font-family: sans-serif;
+    font-weight: 100;   
+}
+
+.button-end{
+    background-color: rgb(32, 28, 28);
+    font-size: 25px;
+    border: 1px solid yellow;
+    color: yellow;
+    padding:9px 30px ;
+    margin-left: -100px;
+}
+.button-end:hover{
+    background-color: black;
+    color: yellow;
+}
+
+.button-end button{
+    background-color: transparent;
+    color: yellow;
+    ;
+}
+.lower{
+    margin-top: 270px;
+    display: flex;
+width: 100%;
+}
+
+
+.one,.two,.three{
+    width: 50%;
+
+   
+}
+.lower p{
+    background-color:  rgb(32, 28, 28);
+    color: white;
+}
+.two p{
+    padding-bottom: 80px;
+    padding-top: 20px;
+    line-height: 30px;
+    margin-block-start: -69px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    color:  #d1bd74;
+    
+}
+.three p{
+    line-height: 27px;
+    color:  #d1bd74;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.one{
+    padding-left: 100px;
+    margin-left: 100px;
+}
